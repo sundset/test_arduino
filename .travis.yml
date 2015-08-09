@@ -3,7 +3,7 @@ language: c
 compiler:
   - gcc
 before_install: 
-    sudo apt-get install libdevice-serialport-perl
-    sudo apt-get install libyaml-perl
-    sudo apt-get install arduino
-    sudo apt-get install arduino-mk
+  - sudo apt-get install libdevice-serialport-perl
+  - sudo apt-get install libyaml-perl
+  - sudo apt-get install arduino
+  - sudo apt-get install arduino-mk
