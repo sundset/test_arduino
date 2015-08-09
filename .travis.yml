@@ -2,5 +2,5 @@
 language: c
 compiler:
   - gcc
-script: Arduino-Makefile/tests/script/runtests.sh
-before_install: Arduino-Makefile/tests/script/bootstrap.sh
+script: tests/script/runtests.sh
+before_install: tests/script/bootstrap.sh
