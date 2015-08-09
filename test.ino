@@ -1,4 +1,5 @@
 #include <Morse.h>
+#include <math.h>
 
 Morse morse(13);
 
@@ -12,4 +13,13 @@ void loop()
   morse.dash(); morse.dash(); morse.dash();
   morse.dot(); morse.dot(); morse.dot();
   delay(3000);
+}
+
+double squareRoot(const double a) {
+    double b = sqrt(a);
+    if(b != b) { // nan check
+        return -1.0;
+    }else{
+        return sqrt(a);
+    }
 }
